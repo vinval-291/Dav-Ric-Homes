@@ -9,7 +9,7 @@ export const ContactPage: React.FC = () => {
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-16">
             <span className="text-accent font-bold uppercase tracking-widest text-sm mb-4 block">Get In Touch</span>
-            <h1 className="text-5xl font-serif dark:text-white text-primary mb-4">Contact Us</h1>
+            <h1 className="text-3xl md:text-5xl font-serif dark:text-white text-primary mb-4">Contact Us</h1>
             <div className="w-24 h-1 bg-accent mx-auto" />
           </div>
 

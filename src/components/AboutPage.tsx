@@ -25,7 +25,7 @@ export const AboutPage: React.FC = () => {
           <motion.h1 
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
-            className="text-5xl md:text-7xl font-serif text-white mb-4"
+            className="text-3xl md:text-7xl font-serif text-white mb-4"
           >
             Who We Are
           </motion.h1>

@@ -58,7 +58,7 @@ export const Hero: React.FC<HeroProps> = ({ onViewProjects, onContactUs }) => {
           transition={{ duration: 0.8, delay: 0.2 }}
           className="max-w-3xl"
         >
-          <h1 className="text-5xl md:text-7xl text-white font-serif leading-tight mb-8">
+          <h1 className="text-3xl md:text-7xl text-white font-serif leading-tight mb-8">
             {slides[currentSlide].title}
           </h1>
           <div className="flex flex-wrap gap-4">

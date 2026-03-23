@@ -13,7 +13,7 @@ export const Journey: React.FC = () => {
             className="md:order-2"
           >
             <span className="text-accent font-bold uppercase tracking-widest text-sm mb-4 block">Our Journey</span>
-            <h2 className="text-4xl md:text-5xl font-serif dark:text-white text-primary mb-8 leading-tight">
+            <h2 className="text-2xl md:text-5xl font-serif dark:text-white text-primary mb-8 leading-tight">
               Our Journey So Far
             </h2>
             <p className="text-lg dark:text-white/70 text-primary/70 leading-relaxed mb-6">

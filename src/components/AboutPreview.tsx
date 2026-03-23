@@ -12,7 +12,7 @@ export const AboutPreview: React.FC = () => {
           transition={{ duration: 0.8 }}
         >
           <span className="text-accent font-bold uppercase tracking-widest text-sm mb-4 block">Who We Are</span>
-          <h2 className="text-4xl md:text-5xl font-serif dark:text-white text-primary mb-8 leading-tight">
+          <h2 className="text-2xl md:text-5xl font-serif dark:text-white text-primary mb-8 leading-tight">
             A Beacon of Modern Real Estate Development
           </h2>
           <p className="text-lg dark:text-white/70 text-primary/70 leading-relaxed mb-6">

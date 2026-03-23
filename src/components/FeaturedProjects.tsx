@@ -30,21 +30,21 @@ export const FeaturedProjects: React.FC<{ onViewAll: () => void }> = ({ onViewAl
   return (
     <section className="py-24 dark:bg-[#080808] bg-gray-50 transition-colors">
       <div className="max-w-7xl mx-auto px-6">
-        <div className="flex flex-col md:flex-row justify-between items-end mb-16 gap-6">
+        <div className="flex justify-between items-end mb-16 gap-4">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
           >
             <span className="text-accent font-bold uppercase tracking-widest text-sm mb-4 block">Portfolio</span>
-            <h2 className="text-4xl md:text-5xl font-serif dark:text-white text-primary">Featured Projects</h2>
+            <h2 className="text-2xl md:text-5xl font-serif dark:text-white text-primary">Featured Projects</h2>
           </motion.div>
           <motion.button
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             viewport={{ once: true }}
             onClick={onViewAll}
-            className="text-accent font-bold uppercase tracking-widest text-sm border-b-2 border-accent pb-1 hover:text-accent/70 hover:border-accent/70 transition-all"
+            className="text-accent font-bold uppercase tracking-widest text-[10px] sm:text-sm border-b-2 border-accent pb-1 hover:text-accent/70 hover:border-accent/70 transition-all shrink-0"
           >
             View All Projects
           </motion.button>

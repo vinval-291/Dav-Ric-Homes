@@ -24,7 +24,7 @@ export const MediaPage: React.FC = () => {
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-16">
             <span className="text-accent font-bold uppercase tracking-widest text-sm mb-4 block">Our Gallery</span>
-            <h1 className="text-5xl font-serif dark:text-white text-primary mb-4">Media & Insights</h1>
+            <h1 className="text-3xl md:text-5xl font-serif dark:text-white text-primary mb-4">Media & Insights</h1>
             <div className="w-24 h-1 bg-accent mx-auto" />
           </div>
 
