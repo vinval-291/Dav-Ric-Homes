@@ -1,0 +1,5 @@
+{
+  "name": "Dav-Ric Homes",
+  "description": "Modern Luxury Real Estate Development in Nigeria and Canada",
+  "requestFramePermissions": ["geolocation"]
+}
